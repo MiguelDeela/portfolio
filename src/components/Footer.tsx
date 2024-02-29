@@ -30,7 +30,7 @@ const Footer = () => {
               </a>
               <a
                 className="hover:text-hover text-sm text-textPrimary"
-                href="./public/files/Miguel-CV.pdf"
+                href="https://inacapmailcl-my.sharepoint.com/:b:/g/personal/miguel_delacruz_inacapmail_cl/EQLssylb8c5IsRMEJgny1-EBtwRqBngt0GSamUHR5nxiBQ?e=QUwox6"
                 rel="noopener noreferrer"
                 target="_blank"
                 aria-label="Download Resume"
