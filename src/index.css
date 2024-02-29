@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(calc(-24px * 12 - 20px * 24));
+	}
+}
+
+.animated {
+	animation: scroll 13s linear infinite;
+}
+
+
+@font-face {
+	font-family: 'Arcade';
+  src: url('/public/fonts/AARDV.TTF') format('truetype');
+  /* Agrega otras declaraciones @font-face según los diferentes estilos y pesos de la fuente si los tienes */
+}
+
+.title-font {
+	font-family: 'Arcade', sans-serif;
+}
