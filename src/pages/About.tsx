@@ -3,11 +3,10 @@ import CaoruselObjects from "../components/CaoruselObjects"
 
 const About = () => {
 	return (
-		<div className=' p-8 ' id='about'>
+		<div className='p-8' id='about'>
 			<h1 className='text-7xl flex justify-center text-teal-300  mb-10 title-font'>{'<'}Sobre mi {'/>'}</h1>
-
-			<div className='flex justify-center '>
-				<div className='mr-60'>
+			<div className='flex justify-center flex-wrap '>
+				<div className=''>
 					<h2 className='text-4xl'>Habilidades Blandas</h2>
 					<ul className="steps steps-vertical">
 						<li data-content="" className="step step-accent">Capacidad de aprendizaje continuo</li>
@@ -19,7 +18,7 @@ const About = () => {
 						<li data-content="" className="step step-accent">Trabajo en equipo</li>
 					</ul>
 				</div>
-				<div className="flex flex-col items-center">
+				<div className="flex flex-col items-center overflow-clip">
 					<h2 className='text-4xl'>Educación</h2>
 					<ul className="list-disc">
 						<li>

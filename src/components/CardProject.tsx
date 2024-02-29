@@ -4,7 +4,7 @@ const CardProject = () => {
 	return (
 		<div className='flex justify-center'>
 			<a href="https://effervescent-pithivier-40b307.netlify.app/" className="">
-				<div className="card w-[900px] lg:card-side bg-base-100 shadow-xl mb-10">
+				<div className="card max-w-[900px] lg:card-side bg-base-100 shadow-xl mb-10">
 					<figure className='p-5'><img src={citas} alt="App-citas"/></figure>
 					<div className="card-body">
 						<h2 className="card-title">Administrador de Pacientes</h2>

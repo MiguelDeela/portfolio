@@ -4,9 +4,9 @@ const NavBar = () => {
 
 	return (
 		<nav className=" p-4 fixed w-full bg-black z-10">
-			<div className="flex justify-between items-center">
+			<div className="flex flex-wrap md:justify-between justify-center items-center mx-10">
 				<div className="">
-				<a href="/" className="">MAdlCA</a>
+				<a href="/" className=" text-xl">MAdlCA</a>
 				</div>
 				<div className="">
 					<ul className="flex">

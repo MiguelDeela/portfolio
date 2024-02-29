@@ -5,7 +5,7 @@ const Home = () => {
 	return (
 		<section className="h-screen flex flex-col justify-center items-center bg-zinc-950">
 			<div className="flex flex-col">
-				<div className='flex flex-row items-center gap-2'>
+				<div className='flex flex-row items-center gap-2 flex-wrap-reverse justify-center'>
 					<div className='flex flex-col'>
 						<h1 className="text-center text-5xl mb-5 title-font ">¡Bienvenido! Soy, <span className='text-blue-400'>Miguel Angel</span></h1>
 						<h1 className="text-6xl text-center text-teal-300 title-font mb-5">Software Developer</h1>
@@ -18,7 +18,7 @@ const Home = () => {
 						</div>
 					</div>
 					<div className="avatar flex mt-8 w-1/4 ">
-						<div className="w-42 rounded-full bg-gray-200 opacity-90">
+						<div className="w-42 rounded-full bg-gray-200 opacity-90"> 
 							<img src={miguel2} />
 						</div>
 					</div>
